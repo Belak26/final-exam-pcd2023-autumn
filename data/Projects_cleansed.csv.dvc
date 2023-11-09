@@ -1,0 +1,5 @@
+outs:
+- md5: f8d97bf48d141fabe00bdf6a10d60bcc
+  size: 306180380
+  hash: md5
+  path: Projects_cleansed.csv
