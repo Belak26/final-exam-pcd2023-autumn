@@ -49,13 +49,13 @@ pip install -U pyopenssl cryptography
 pip install dvc
 pip install dvc-s3
 ```
-- En el repositorio en `dagshub`, darle click en el botón verde `Remote` en la pestaña `Data` seleccionar la opción `DVC`
+Ejecutar las siguientes isntrucciones en la terminal del proyecto:
 ```
 dvc remote add origin -f s3://dvc
 dvc remote modify origin endpointurl https://dagshub.com/zapatacc/final-exam-pcd2023-autumn.s3
 ```
+- En el repositorio en `dagshub`, darle click en el botón verde `Remote` en la pestaña `Data` seleccionar la opción `DVC`
 ![images/1.png](images/1.png)
-- Copiar las instrucciones de la sección `Add a DagsHub DVC remote` y ejecutarlas en la terminal local del proyecto
-- Repetir la operación para las isntrucciones de la sección `Setup credential`
+- Copiar las instrucciones de la sección `Setup credential` y ejecutarlas en la terminal local del proyecto
 - ![images/2.png](images/2.png)
 - Finalmente ejecute el comando `dvc pull -r origin`
