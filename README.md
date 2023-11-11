@@ -27,6 +27,7 @@ Antes de comenzar el examen, por favor, lea cuidadosamente las siguientes indica
 - La presentación del examen debe tener un formato adecuado, con tamaños de letra, colores y etiquetas apropiados.
 - No se responderán dudas por parte del profesor o cualquier otro docente.
 - Se evaluará la capacidad de interpretar resultados. Incluya sus interpretaciones y conclusiones.
+- Recuerde hacer commits/push en su respectiva rama.
 - La calificación se distribuirá de la siguiente manera:
 
   | Aspecto a Evaluar                                            | Porcentaje |
@@ -49,7 +50,7 @@ pip install -U pyopenssl cryptography
 pip install dvc
 pip install dvc-s3
 ```
-Ejecutar las siguientes isntrucciones en la terminal del proyecto:
+Ejecutar las siguientes instrucciones en la terminal del proyecto:
 ```
 dvc remote add origin -f s3://dvc
 dvc remote modify origin endpointurl https://dagshub.com/zapatacc/final-exam-pcd2023-autumn.s3
@@ -57,5 +58,5 @@ dvc remote modify origin endpointurl https://dagshub.com/zapatacc/final-exam-pcd
 - En el repositorio en `dagshub`, darle click en el botón verde `Remote` en la pestaña `Data` seleccionar la opción `DVC`
 ![images/1.png](images/1.png)
 - Copiar las instrucciones de la sección `Setup credential` y ejecutarlas en la terminal local del proyecto
-- ![images/2.png](images/2.png)
+![images/2.png](images/2.png)
 - Finalmente ejecute el comando `dvc pull -r origin`
